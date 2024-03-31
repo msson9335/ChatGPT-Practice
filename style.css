@@ -1,0 +1,49 @@
+@import 'reset.css';
+body{
+    background-color: rgb(33, 33, 33);
+    color: white;
+
+}
+.nav-container{
+    
+    display: flex;
+    justify-content: space-between;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.15);
+    height: 45px;
+    align-items: center;
+}
+
+body .version{
+    color: #b4b4b4;
+}
+
+.ChatGPT{
+    font-weight: bold;
+    display: flex;
+    gap: 5px;
+    padding: 12px;
+}
+
+.ChatGPT > i{
+    font-size: 10px;
+    color: rgb(180, 180, 180);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.nav-container > i{
+    padding: 12px;
+}
+
+.profile{
+    width: 24px;
+    height: 24px;
+    background-color: black;
+    font-size: 8px;
+    text-align: center;
+    border-radius: 12px;
+}
+.profile-text{
+    display: flex;
+}
